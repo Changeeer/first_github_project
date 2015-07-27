@@ -1,0 +1,1 @@
+function headerFn(a){var b=a.vm={};b.menus=[{name:"实验课堂",href:"Index"},{name:"讨论区",href:"Discussion"},{name:"个人中心",href:"Zone"}]}controllers.controller("headerCtrl",headerFn),headerFn.$inject=["$scope"]

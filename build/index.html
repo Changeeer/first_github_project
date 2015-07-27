@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>大学物理实验自主学习平台</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="lib/angular-material/angular-material.css"/>
+    <link rel="stylesheet" href="style/reset.css"/>
+    <link rel="stylesheet" href="style/style.css"/>
+    <link rel="stylesheet" href="lib/angular-animate/animate.css">
+    <base href="/src/">
+  </head>
+   <div ng-include class="stu-header" src="'tpls/common/header.html'"></div>
+   <div class="container fade-in-animation" ui-view></div>
+   <div ng-include src="'tpls/common/footer.html'"></div>
+   <script src="lib/requirejs/require.js" data-main="script/studentConfig.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,1 @@
+define(["angular","angular-route","./controllers/teacher/Controllers","./directives/teacher/Directives","./services/AppServices"],function(a){return a.module("app",["controllers","directives","services","ngMaterial","ui.router"])})

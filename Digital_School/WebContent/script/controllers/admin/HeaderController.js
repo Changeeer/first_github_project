@@ -1,0 +1,1 @@
+function headerFn(a){var b=a.vm={};b.menus=[{name:"实验管理",href:"sygl"},{name:"成绩管理",href:"cjgl"},{name:"教师管理",href:"jsgl"},{name:"学生管理",href:"xsgl"},{name:"公告栏",href:"board"},{name:"讨论区",href:"forum"}]}controllers.controller("headerCtrl",headerFn),headerFn.$inject=["$scope"]

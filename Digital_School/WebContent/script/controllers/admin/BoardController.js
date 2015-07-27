@@ -1,0 +1,1 @@
+function boardManagementFn(a,b,c){a.editorConfig={focus:!0},a.nowTime=new Date,a.$watch("content",function(){a.html=c.trustAsHtml(a.content),a.nowTime=new Date})}controllers.controller("boardManagementCtrl",boardManagementFn),boardManagementFn.$inject=["$scope","$timeout","$sce"]
