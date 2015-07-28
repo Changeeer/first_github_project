@@ -1,1 +1,0 @@
-define(["./app"],function(a){return a.run(["$rootScope","$state","$stateParams",function(a,b,c){a.$state=b,a.$stateParams=c}]).config(["$stateProvider","$locationProvider","$urlRouterProvider","$animateProvider","$mdThemingProvider",function(a,b,c,d,e){e.theme("default").primaryPalette("green").accentPalette("green"),c.otherwise("Login"),a.state("Login",{url:"/Login"})}])})

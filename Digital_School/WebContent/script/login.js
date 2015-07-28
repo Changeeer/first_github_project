@@ -1,1 +1,0 @@
-define(["angular","angular-route","angular-sanitize","./controllers/login/LoginController"],function(a){return a.module("app",["controllers","ngMaterial","ui.router","ngSanitize"])})
