@@ -1,1 +1,0 @@
-define(["filters/filters"],function(a){a.controller("myfilters",["$scope",function(a){}])})
