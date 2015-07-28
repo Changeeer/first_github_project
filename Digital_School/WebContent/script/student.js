@@ -1,1 +1,0 @@
-define(["angular","angular-route","angular-sanitize","./controllers/student/Controllers","./directives/student/Directives","./services/AppServices"],function(a){return a.module("app",["controllers","directives","services","ngMaterial","ui.router","ngSanitize"])})
